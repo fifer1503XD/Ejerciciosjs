@@ -10,7 +10,7 @@ const users = [
     },
     {
         name: 'Georg',
-        age: 35,
+        age: 33,
         email: 'georg@academlo.com',
         social: [
             { name: 'facebook', url: 'facebook/georg' },

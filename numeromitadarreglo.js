@@ -5,7 +5,6 @@ let c=0;
     array=[];
         for( var i=0; i<size ;i++){
             var num = prompt("indica el numero en la posicion "+i);
-            document.write (num);
             c=parseInt(num);
             array[i]=c;
         }
@@ -20,8 +19,8 @@ let c=0;
     var mid= size/2;
     mid=Math.trunc(mid);
     if((size%2)==1){
-        console.log('el número de la mitad es '+array[mid])
+        alert('el número de la mitad es '+array[mid])
     }
     else{
-        console.log('los números de la mitad son'+array[mid-1] +' y '+array[mid])
+        alert('los números de la mitad son '+array[mid-1] +' y '+array[mid])
     }

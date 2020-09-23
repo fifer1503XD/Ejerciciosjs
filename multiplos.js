@@ -11,8 +11,5 @@ for( var i=5; i<1000; i=i+5){
     k=k+1;
 }
 var totalmult=total1+total2;
-alert('los multiplos de 3 antes de 100 son :'+array);
-alert('la sumatoria de los  multiplos de 3 antes de 100 es :'+total1);
-alert('los multiplos de 5 antes de 100 son :'+array2);
-alert('la sumatoria de los  multiplos de 5 antes de 100 es :'+total2);
-alert('la sumatoria de los  multiplos de 3 y 5 antes de 100 es :'+totalmult)  
+
+alert('la sumatoria de los  multiplos de 3 y 5 antes de 1000 es :'+totalmult)  

@@ -18,7 +18,7 @@ const users = [
         ]
     },
     {
-        name: 'Oscar',
+        name: 'felipe',
         age: 31,
         email: 'oscar@academlo.com',
         social: [

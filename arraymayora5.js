@@ -1,5 +1,4 @@
 give();
-pedirarray();
 sum1(array);
 sum2(array);
 function give(){
@@ -10,8 +9,6 @@ for( var i=0; i<6; i=i){
         alert("Escriba un numero mayor de 5");
     }
  }
-}
-function pedirarray(){
 array=[];
 for( var i=0; i<num ;i++){
     var num2 = prompt("indica el numero en la posicion "+i);

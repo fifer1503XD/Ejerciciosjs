@@ -1,4 +1,5 @@
 give();
+pedirarray();
 sum1(array);
 sum2(array);
 function give(){
@@ -10,11 +11,13 @@ for( var i=0; i<6; i=i){
     }
  }
 }
+function pedirarray(){
 array=[];
 for( var i=0; i<num ;i++){
     var num2 = prompt("indica el numero en la posicion "+i);
     c=parseInt(num2);
     array[i]=c;
+ }
 }
 function sum1(data) {
     c=0;

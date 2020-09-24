@@ -1,5 +1,5 @@
 
-for( var i=0; i<5; i=i){
+for( var i=0; i<=6; i=i){
     var num = prompt("indica el numero de posiciones del arreglo");
     i=num;
     if(i<5){

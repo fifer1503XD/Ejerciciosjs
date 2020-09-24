@@ -1,4 +1,6 @@
-
+give();
+sum1(array);
+sum2(array);
 function give(){
 for( var i=0; i<6; i=i){
     var num = prompt("indica el numero de posiciones del arreglo");
@@ -30,6 +32,3 @@ function sum1(data) {
     alert('la suma de los números del arreglo sin sus primeras 5 posiciones es :'+d);
     return d; 
    }
-give()
-sum1(array)
-sum2(array)
